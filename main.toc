@@ -1,0 +1,7 @@
+\babel@toc {russian}{}
+\contentsline {chapter}{Введение}{1}%
+\contentsline {chapter}{\numberline {1}2. Метод}{3}%
+\contentsline {section}{\numberline {1.1}2.1. Исследуемая популяция и данные}{3}%
+\contentsline {section}{\numberline {1.2}2.2. Хирургическая техника}{3}%
+\contentsline {section}{\numberline {1.3}3. Результаты}{4}%
+\contentsline {section}{\numberline {1.4}2.4. Статистический анализ}{4}%

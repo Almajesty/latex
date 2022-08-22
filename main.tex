@@ -1,0 +1,40 @@
+\documentclass{book}
+\usepackage[utf8]{inputenc}
+
+%%% Работа с русским языком
+\usepackage{cmap}					% поиск в PDF
+\usepackage{mathtext} 				% русские буквы в формулах
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+\usepackage{indentfirst}
+\frenchspacing
+
+%
+%	landscape orientation 
+%
+\usepackage[landscape]{geometry}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{lipsum}
+\usepackage{verbatim}
+\usepackage{eso-pic}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+
+\begin{document}
+
+
+\input{./chap/cover.tex}
+
+%HERE YOU CAN CHANGE THE MARGIN SIZE
+\newgeometry{left=3cm,right=3cm,outer=5cm,inner=2.5cm}
+%DISTANCE BETWEEN COLUMNS 
+\setlength\columnsep{30pt} 
+\begin{multicols}{2}
+	\input{./chap/introd.tex}
+	\input{./chap/main.tex}
+\end{multicols}
+
+\end{document}
